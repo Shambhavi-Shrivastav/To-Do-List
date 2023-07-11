@@ -1,0 +1,112 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem
+}
+
+input {
+    outline: none;
+    width: 30rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    padding-left: 1rem;
+}
+
+
+button {
+    border-radius: 10px;
+    width: 4vmax;
+    border: none;
+    background-color: white;
+    
+}
+
+button:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: medium;
+}
+
+.addItems {
+    display: flex;
+    gap: 5px;
+
+}
+
+.showItem {
+    display: flex;
+    margin-top: 1vmax;
+    gap: 5px
+}
+
+.eachItem {
+    width: 30rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: large;
+    
+}
+
+.eachItem :first-letter{
+    text-transform: capitalize;
+}
+
+
+.btn {
+    background-color: white;
+    width: fit-content;
+    margin-top: 2vmax;
+    margin-left: 15vmax;
+    height: 3vmax;
+}
+
+.btn:hover {
+    background-color: crimson;
+    transition: 0.5s;
+}
+
+.btn>span {
+    margin: 2rem;
+}
+
+
+@media(max-width:998px) {
+    figure>img {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    input {
+        width: 20rem;
+        height: 2.0rem;
+        font-size: medium;
+        padding-left: 0.8rem;
+    }
+
+    .eachItem {
+        width: 20.2rem;
+        font-size: medium;
+        padding-left: 0.8rem;
+    }
+
+    .btn {
+        height: 1.8rem
+    }
+
+}
